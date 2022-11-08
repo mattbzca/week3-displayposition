@@ -17,11 +17,14 @@ h1, h2, h3 {
 
 aside {
 	float: left;
-	width: 15%;
+	width: 30%;
 }
 
 footer {
 	clear: both;
+	position: fixed;
+	bottom: 1em;
+	left: 1em;
 }
 
 header {
@@ -29,21 +32,24 @@ header {
 }
 
 img {
-	max-width: 70%;
+	max-width: 75%;
 }
 
 main {
 	float: left;
-	width: 29%;
-	margin-right: 1%;
+	width: 62%;
 }
 
 nav {
 	float: left;
 	width: 8%;
-	margin-left: 1%;
 }
 
 #copyright {
 	font-size: 80%;
+	margin-left: 1em;
+}
+#main-container {
+	margin-left: 1em;
+	width: 100%;
 }
